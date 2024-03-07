@@ -65,7 +65,7 @@
       height:100%;
     
       .top{
-        height: 70%;
+        height: 80%;
         width:100%;
 
     -webkit-background-size: 100%;
@@ -75,7 +75,7 @@
       }
       .bottom{
         width: 200%;
-        height: 30%;
+        height: 20%;
         transition: transform 0.5s;
       
         &.clicked{
@@ -230,6 +230,7 @@
         }
         h1, p, table{
           color: white;
+          font-size: 2rem;
         }
         p{
           font-size:13px;
