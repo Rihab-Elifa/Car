@@ -1,0 +1,62 @@
+/* For the white background and orange container */
+.login {
+
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh; 
+  background-image: url('/assets/s.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  
+
+
+  
+}
+
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.7); /* White container with 70% opacity */
+  padding: 10px 15px 20px;
+  margin: 0 auto 15px;
+  margin-top: 30px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  color: #454545;
+
+ // width: 450px; /* Adjust the width as desired */
+ // height: 900px; /* Adjust the height as desired */
+  max-width: 750px; /* Set max-width for flexibility */
+ width: 600px;
+ height: 670px;
+  
+}
+
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-container.card {
+  max-width: 700px !important; /* Augmentation de la largeur du conteneur */
+  padding: 40px 40px;
+}
+
+
+
+
+
+
+
