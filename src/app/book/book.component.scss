@@ -1,0 +1,52 @@
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    background-image: url('/assets/s.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
+
+ h2{
+    margin-bottom: 3rem;
+    
+}
+ form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ form .input-box input ,
+ form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color:var(--text-color);
+    background: white;
+    border-radius: .8rem;
+    margin: .7rem 0;
+
+
+}
+ form .input-box input{
+    width: 49%;
+}
+ form textarea  {
+    resize: none;
+}
+ form .btn{
+  margin-top: 2rem;
+  cursor: pointer;  
+}

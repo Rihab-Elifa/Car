@@ -5,13 +5,13 @@
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
   min-height: 100vh; 
-  background-image: url('/assets/s.jpg');
+  background-image: url('/assets/fond.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 900px;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 70px;
   
 
@@ -23,9 +23,9 @@
 
 .card {
   background-color: rgba(255, 255, 255, 0.7); /* White container with 70% opacity */
-  padding: 10px 15px 20px;
-  margin: 0 auto 15px;
-  margin-top: 30px;
+  padding: 10px 10px 10px;
+  margin: 0 auto 5px;
+  margin-top: 50px;
   border-radius: 2px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   color: #454545;
@@ -33,8 +33,8 @@
  // width: 450px; /* Adjust the width as desired */
  // height: 900px; /* Adjust the height as desired */
   max-width: 750px; /* Set max-width for flexibility */
- width: 600px;
- height: 670px;
+ width: 580px;
+ height: 580px;
   
 }
 
@@ -56,61 +56,96 @@
 
 
 
-div.elem-group {
-    margin: 20px 0;
-  }
-  
-  div.elem-group.inlined {
-    width: 49%;
-    display: inline-block;
-    float: left;
-    margin-left: 1%;
-  }
-  
-  label {
-    display: block;
-    font-family: 'Nanum Gothic';
-    padding-bottom: 10px;
-    font-size: 1.25em;
-  }
-  
-  input, select, textarea {
-    border-radius: 2px;
-    border: 2px solid #777;
-    box-sizing: border-box;
-    font-size: 1.25em;
-    font-family: 'Nanum Gothic';
+
+.wrapper {
     width: 100%;
-    padding: 10px;
+    /* Adjust as needed */
+    margin: auto;
+ 
   }
   
-  div.elem-group.inlined input {
-    width: 95%;
-    display: inline-block;
+  .container {
+   
+   
   }
   
-  textarea {
-    height: 250px;
+  .top {
+    padding: 20px;
+    text-align: center;
   }
   
-  hr {
-    border: 1px dotted #ccc;
+  .top h1 {
+    color: #1f242d;
+    margin-bottom: 10px;
+    font-size: 40px;
   }
   
-  button {
-    height: 50px;
-    background: orange;
-    border: none;
-    color: white;
-    font-size: 1.25em;
-    font-family: 'Nanum Gothic';
-    border-radius: 4px;
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left, .right {
+    flex: 1;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .left {
+    margin-right: 10px;
+  }
+  
+  .right {
+    margin-left: 10px;
+  }
+  
+   .done, .remove {
     cursor: pointer;
+    background-color: #E9A178;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
   }
   
-  button:hover {
-    border: 2px solid black;
+   .done:hover, .remove:hover {
+    background-color: #0056b3;
   }
+  
+  .details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #1f242d;
+  }
+  
+  .details p {
+    font-size: 26px;
+    color: #1f242d;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  
+
+.buy{
+    display:inline-block;
+    padding: 1rem 2.8rem;
+    background: #E9A178;
+    border-radius: 4rem;
+    box-shadow:0 0 1rem #E9A178 ;
+    font-size: 1.6rem;
+    color:#1f242d;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    cursor: pointer;
+    align-items: center;
 
 
-
+}
