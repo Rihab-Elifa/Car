@@ -28,14 +28,15 @@
           color: #E9A178;
           font-size: 14px;
       margin-left: 5px;
+      margin-top: 3px;
         }
       }
     }
     
     > span{
       font-family: "Open Sans", sans-serif;
-      font-size: 14px;
-      margin-left: 5px;
+      font-size: 12px;
+      //margin-left: 5px;
       color: #555;
     }
   }
@@ -48,9 +49,9 @@
     position: relative;
      display: flex; /* Make each container a flex container */
       flex-direction: column;
-    
+    margin: auto;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
   box-shadow: 0;
     transform: scale(0.95);
     transition: box-shadow 0.5s, transform 0.5s;
@@ -97,12 +98,12 @@
           float:left;
          
           .details{
-            padding: 20px;
+            //padding: 20px;
             float: left;
             width: calc(70% - 40px);
 
             h1 ,p{
-                color: var(--bg-color);
+                color:#1f242d;
             }
           }
           .buy{
@@ -129,7 +130,7 @@
         }
         .right{
           width: 50%;
-          background: #A6CDDE;
+        
           color: white;
           float:right;
           height:200%;
